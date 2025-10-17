@@ -1,0 +1,7 @@
+- hosts: webservers
+  gather_facts: no
+  tasks:
+    - name: start datadog
+      import_role:
+        name: datadog.datadog
+      become: yes

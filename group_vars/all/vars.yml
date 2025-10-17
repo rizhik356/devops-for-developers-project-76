@@ -1,0 +1,6 @@
+redmine_port: 3000
+REDMINE_DB_POSTGRES: master.72914ab7-8cfa-4de8-bfe1-eee20af15184.c.dbaas.selcloud.ru
+REDMINE_DB_DATABASE: Hexlet
+REDMINE_DB_USERNAME: emma
+REDMINE_DB_PORT: 5432
+db_password: "{{ vault_db_password }}"
